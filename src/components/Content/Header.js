@@ -24,7 +24,7 @@ export default function Header() {
     const onSubmit = handleSubmit(async (data) => {
         console.log(data);
         logout();
-        navigate("/");
+        navigate("/signup");
     })
 
 

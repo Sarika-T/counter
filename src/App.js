@@ -15,7 +15,7 @@ function App() {
         <HashRouter>
           <div className='App'>
             <Routes>
-              <Route path="/" element={<SignUp />} />
+              <Route path="/signup" element={<SignUp />} />
               <Route path="/dashboard" element={<MainPage />} />
               <Route path="/login" element={<SignIn />} />
             </Routes>
