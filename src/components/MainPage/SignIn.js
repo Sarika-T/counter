@@ -93,7 +93,7 @@ const SignIn = () => {
                   Login
               </Button>
         </FormProvider>
-        <p>Don't have an account? <Link to="/signup">Sign Up</Link></p>
+        <p>Don't have an account? <Link to="/">Sign Up</Link></p>
         </div>
       </div>
     </div>
